@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://sow-dash-board-82g8errcy-abiseks-projects-56e72be1.vercel.app")
+                        .allowedOrigins("https://sow-dash-board-300ztjxhm-abiseks-projects-56e72be1.vercel.app/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
