@@ -3,7 +3,7 @@
         const messageBox = document.getElementById('messageBox');
 
         // Base URL for your Spring Boot backend
-        const API_BASE_URL = 'http://localhost:8080/api';
+        const API_BASE_URL = 'https://sow-dashboard.onrender.com/api';
 
         // Function to show messages (success/error)
         function showMessage(message, isError = false) {
