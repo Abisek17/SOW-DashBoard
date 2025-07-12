@@ -950,73 +950,8 @@
                     </form>
                 </div>
             `,
-            'partners': `
-                <div class="header">
-                    <h1>Partners</h1>
-                    <button class="button-primary">+ Add New Partner</button>
-                </div>
-                <div class="section-card">
-                    <p class="text-gray-600">This page would list all partners and allow for management.</p>
-                    <div class="table-container">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>Partner Name</th>
-                                    <th>Opportunities</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>WWT</td>
-                                    <td>15</td>
-                                    <td>Active</td>
-                                    <td><button class="text-blue-500 hover:underline text-sm">Edit</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Virtual Tech Gurus, Inc</td>
-                                    <td>10</td>
-                                    <td>Active</td>
-                                    <td><button class="text-blue-500 hover:underline text-sm">Edit</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            `,
-            'templates': `
-                <div class="header">
-                    <h1>Templates</h1>
-                    <button class="button-primary">+ Add New Template</button>
-                </div>
-                <div class="section-card">
-                    <p class="text-gray-600">This page would allow users to manage SOW templates.</p>
-                    <div class="table-container">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>Template Name</th>
-                                    <th>Last Modified</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Standard SOW Template</td>
-                                    <td>2024-05-10</td>
-                                    <td><button class="text-blue-500 hover:underline text-sm">Edit</button></td>
-                                </tr>
-                                <tr>
-                                    <td>RAAS Project Template</td>
-                                    <td>2024-04-20</td>
-                                    <td><button class="text-blue-500 hover:underline text-sm">Edit</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            `
+            'partners': ``,
+            'templates': ``
         };
 
         // Function to load page content
