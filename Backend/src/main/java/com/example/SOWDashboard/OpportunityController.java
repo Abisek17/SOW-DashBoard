@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/opportunities") // Base path for all endpoints in this controller
-@CrossOrigin(origins = {"http://localhost:8080", "http://127.0.0.1:5501", "http://localhost:5501"}) // Allows requests from your frontend (adjust if frontend runs on a different port/domain)
+@CrossOrigin(origins = {"http://localhost:8080","https://sow-dash-board-2huhxd3ri-abiseks-projects-56e72be1.vercel.app", "http://127.0.0.1:5501", "http://localhost:5501"}) // Allows requests from your frontend (adjust if frontend runs on a different port/domain)
 public class OpportunityController {
     @Autowired // Injects the OpportunityService
     private OpportunityService opportunityService;
